@@ -20,6 +20,3 @@ console.log(  sumar( 5, 10 )   );
 
 // Se imprime Hola mundo
 console.log(  saludar()   );
-
-
-
