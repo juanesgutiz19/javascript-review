@@ -66,6 +66,7 @@ const getInfoUsuario = async( id ) => {
 
 const id = 3;
 
+// getInfoUsuario devuelve una promesa el dato a mostrar ya sea el string que muestra la información o el respectivo error
 getInfoUsuario( id )
     .then( msg => {
         console.log('TODO BIEN!')
