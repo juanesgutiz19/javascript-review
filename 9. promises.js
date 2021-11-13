@@ -61,7 +61,7 @@ const id = 4;
 //     .catch( err => console.log(err) );
 
 // Promesas en cadena - Forma no legible (no recomendada)
-// getEmpleado( id ) 
+// getEmpleado( id )
 //     .then( empleado => {
 //         getSalario( id )
 //             .then( salario => {
@@ -70,7 +70,6 @@ const id = 4;
 //             .catch( err => console.log(err) )
 //     })
 //     .catch( err => console.log(err) )
-
 
 // Promesas en cadena - Forma recomendada
 let nombre;

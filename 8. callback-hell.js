@@ -53,7 +53,7 @@ const getSalario = ( id, callback ) => {
 
 }
 
-const id = 3;
+const id = 2;
 
 // Callback hell son callbacks anidados, esto puede hacer que el código sea poco legible y difícil de mantener
 getEmpleado( id, ( err, empleado ) => {
@@ -66,6 +66,7 @@ getEmpleado( id, ( err, empleado ) => {
     getSalario(id, (err, salario) => {
 
         if ( err ) {
+            console.log('ERROR!');
             return console.log(err);
         }
     

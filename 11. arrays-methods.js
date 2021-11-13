@@ -77,7 +77,9 @@ console.log(res);
 // un array cumple con el test implementado por la 
 // función brindada. Si se aprueba, devuelve “true” de lo contrario “false”.
 
+console.log('SOME');
 const largeNum = array.some( num => num > 4 );
+
 console.log(largeNum);
 
 const smallNum = array.some( num => num <= 0 );

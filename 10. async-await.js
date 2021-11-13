@@ -48,7 +48,7 @@ const getSalario = ( id ) => {
     });
 }
 
-
+// Una función async devuelve una promesa
 const getInfoUsuario = async( id ) => {
 
     try {
@@ -64,15 +64,15 @@ const getInfoUsuario = async( id ) => {
 }
 
 
-const id = 3;
+const id = 2;
 
-// getInfoUsuario devuelve una promesa el dato a mostrar ya sea el string que muestra la información o el respectivo error
+// getInfoUsuario devuelve en una promesa el dato a mostrar ya sea el string que muestra la información o el respectivo error
 getInfoUsuario( id )
     .then( msg => {
-        console.log('TODO BIEN!')
-        console.log(msg) 
+        console.log('TODO BIEN!');
+        console.log( msg );
     })
     .catch( err => {
-        console.log('TODO MAL!')
-        console.log( err ) 
+        console.log('TODO MAL!');
+        console.log( err );
     });

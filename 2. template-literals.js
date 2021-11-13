@@ -14,7 +14,7 @@ console.log(template);
 // Dentro de ${} se puede introducir cualquier tipo de operación en js
 console.log( `1 + 1 es ${1 + 1}` );
 
-// útil para incrustar HTML
+// Útil para incrustar HTML
 const html = `
 <h1>Hola</h1>
 <p>Mundo</p>

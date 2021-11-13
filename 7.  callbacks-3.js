@@ -32,7 +32,7 @@ const getEmpleado = ( id, callback ) => {
 
 getEmpleado( 10, ( err, empleado ) => {
 
-    // Si hay un error, este se muestra, además se retorna para no seguir ejecutándose la aplicación
+    // Si hay un error, este se muestra, además se retorna para no seguir ejecutándo la aplicación
     if ( err ) {
         console.log('ERROR!');
         return console.log(err);

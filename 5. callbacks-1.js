@@ -15,7 +15,7 @@ const getUsuarioByID = ( id, callback ) => {
     }
 
     setTimeout( () => {
-        callback(user);
+        callback( user );
     }, 1500 )
 
 }
@@ -31,6 +31,3 @@ getUsuarioByID( 10, ( usuario ) => {
 //     console.log( id );
 //     console.log( nombre.toUpperCase() );
 // });
-
-
-

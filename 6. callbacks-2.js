@@ -30,3 +30,12 @@ doTask(10, ( err, result ) => {
     }
     console.log("Tiradas correctas: ", result.value);
 });
+
+// También es válido así:
+// doTask(10, ( err, { value } ) => {
+//   if (err) {
+//     console.error( err.message );
+//     return;
+//   }
+//   console.log("Tiradas correctas: ", value);
+// });
